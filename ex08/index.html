@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tenta aumentar a tela do seu computador e diminuir</h1>
+    <!--isso é para deixar as imagens flexível de acordo com o que o cliente estiver usando 
+    seja ele, celular,computador,televisão e etc...-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="foto flexível">
+    </picture>
+   
+    <h1>Reproduzindo Áudio</h1>
+    <audio preload="metadata" autoplay controls> 
+        <source src="#" type="audio/mpeg">
+        <source src="#" type="audio/ogg">
+        <source src="#" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue carregar nenhum audio <a href="3">clique aqui para carregar seu Áudio m</a></p>
+        <!-- obs, wav não é recomentado pq ele é muito pesado.-->
+    </audio>
+    
+</body>
+</html>

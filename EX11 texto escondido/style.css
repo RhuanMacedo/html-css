@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 11, 70);
+}
+
+
+
+div > img {
+    display: none;   /* isso é para esconder o meu texto (none)*/ 
+
+}
+
+div:hover > img {
+    display: block;                   /*isso é para aparecer o meu texto (block) */
+    color: white;
+    background-color: rgb(229, 255, 0)
+}
+
+div:hover {
+    color: aqua;
+}

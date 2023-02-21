@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root {
+    --corfundo:    #4488AA;
+    --cortexto:    #99EEEE;
+    --corlink:     #FFFFFF;
+    --corvisitado: #99EEEE;
+
+
+    --fonte-padrao: verdana, Ubuntu;
+}
+   
+
+body {
+    background-color: var(--corfundo);
+    font-family: var(--fonte-padrao);
+   }
+
+  .container {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    align-content: start;
+    flex-wrap: nowrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    
+}
+
+.container-menu {
+
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.logo 

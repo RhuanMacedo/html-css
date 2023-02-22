@@ -13,33 +13,114 @@
     --corvisitado: #99EEEE;
 
 
-    --fonte-padrao: verdana, Ubuntu;
+    --fonte-padrao: karla, verdana, Ubuntu;
 }
    
 
 body {
     background-color: var(--corfundo);
     font-family: var(--fonte-padrao);
+    font-size: 16px;
    }
 
-  .container {
+   /*essa é a minha barra*/ 
+.container-menu {
+
     display: flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     align-content: start;
+    flex-wrap: nowrap;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+ 
+.bloco-1 {
+
+    list-style: none;
+    line-height: 140%;
+    padding: 1px 6px;
+    font-size: 15px;
+    font-family: var(--fonte-padrao);
+
+}
+
+.logo {
+
+    border-bottom: 3px solid var(--corlink);
+    margin: 6px;
+    padding-bottom: 15px;
+}
+
+a {
+    color: var(--corlink);
+    text-decoration: none;
+}
+a:visited {
+    color: var(--corvisitado);
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*esse é o meu conteudo*/
+
+.container-conteudo {
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
     flex-wrap: nowrap;
     row-gap: 5px;
     column-gap: 5px;
     
 }
 
-.container-menu {
+.bloco-2 {
 
-    display: flex;
-    flex-direction: column;
-  
+    color: var(--corlink);
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-image: url(imagens/BrilhoMark.png);
+    font-size: 20px;
+    font-family: var(--fonte-padrao);
+    
+
 
 }
 
-.logo 
+
+.link-conteudo {
+    list-style: circle
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    row-gap: 5px;
+    column-gap: 5px;
+
+}
+
+
+.bloco-3 {
+    align-self:center;
+   
+}
+
+h1 {
+    color: var(--corlink);
+    font-size: 18px
+
+}
+
+
